@@ -6,6 +6,7 @@ from discord.player import FFmpegAudio
 import youtube_dl 
 from discord import player
 
+#this snippet is for discord bot
 class music(commands.Cog):
     def __init__(self,client):
          self.client=client
